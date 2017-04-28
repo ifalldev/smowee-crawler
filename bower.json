@@ -1,0 +1,25 @@
+{
+  "name": "crawler",
+  "homepage": "https://github.com/ifalldev/smowee-crawler",
+  "authors": [
+    "Caio Batista <cbatista.93@gmail.com>"
+  ],
+  "description": "smowee - crawler",
+  "main": "",
+  "keywords": [
+    "crawler",
+    "cannabis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome-sass": "^4.7.0",
+    "sass-mq": "^3.3.2"
+  }
+}
