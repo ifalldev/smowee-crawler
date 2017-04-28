@@ -14,6 +14,8 @@ class Pages extends CI_Controller
   public function index() {
     $this->load->view('head');
     $this->load->view('header');
+    $this->load->view('home');
+    $this->load->view('footer');
   }
 
   public function search($item = 'seda') {

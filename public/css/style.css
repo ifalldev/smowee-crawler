@@ -2337,39 +2337,40 @@
   justify-content: space-between;
   padding: 10px;
   background-color: #56727C; }
+  .header .header__section {
+    /**
+     * Lay out the children of this container with
+     * flexbox.
+     */
+    display: flex;
+    /**
+     * Align the children in the center, along
+     * the main axis. By default the children will
+     * align along their top edges.
+     */
+    align-items: center; }
+    .header .header__section .header__item {
+      padding: 5px 15px;
+      font-size: 12px; }
+      .header .header__section .header__item + .header__item {
+        margin-left: 5px; }
+      .header .header__section .header__item.is-site-header-item-selected {
+        color: #FFFFFF;
+        background-color: #415F69;
+        border-radius: 4px; }
+    .header .header__section .header-logo {
+      font-size: 20px;
+      line-height: 0;
+      color: white; }
+    .header .header__section .header-button {
+      cursor: pointer;
+      color: #D9E9EF; }
 
-.header__section {
-  /**
-   * Lay out the children of this container with
-   * flexbox.
-   */
+.footer {
   display: flex;
-  /**
-   * Align the children in the center, along
-   * the main axis. By default the children will
-   * align along their top edges.
-   */
-  align-items: center; }
-
-.header__item {
-  padding: 5px 15px;
-  font-size: 12px; }
-
-.header__item + .header__item {
-  margin-left: 5px; }
-
-.header__item.is-site-header-item-selected {
-  color: #FFFFFF;
-  background-color: #415F69;
-  border-radius: 4px; }
-
-.header-logo {
-  font-size: 20px;
-  line-height: 0;
-  color: white; }
-
-.header-button {
-  cursor: pointer;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #56727C;
   color: #D9E9EF; }
 
 /*# sourceMappingURL=style.css.map */
