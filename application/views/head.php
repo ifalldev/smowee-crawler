@@ -15,7 +15,6 @@
     <!-- <link href="public/css/modern-business.css" rel="stylesheet"> -->
 
     <link href="public/css/style.css" rel="stylesheet" type="text/css">
-    <link href="public/css/animista.css" rel="stylesheet" type="text/css">
 
     <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 
