@@ -2348,6 +2348,20 @@
       cursor: pointer;
       color: #D9E9EF; }
 
+.body {
+  display: flex;
+  padding: 30px; }
+  .body * {
+    display: flex;
+    flex: 1;
+    min-height: 10px;
+    padding: 10px;
+    border: 1px solid #000; }
+  .body .body__section {
+    flex-direction: column; }
+  .body .home__button {
+    min-height: 50px; }
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -2355,5 +2369,19 @@
   padding: 10px;
   background-color: #3B393C;
   color: #D9E9EF; }
+  .footer .footer__box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; }
+    .footer .footer__box .footer__redes_sociais {
+      display: flex; }
+      .footer .footer__box .footer__redes_sociais div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        background-color: #000;
+        height: 30px;
+        width: 30px; }
 
 /*# sourceMappingURL=style.css.map */
