@@ -2773,6 +2773,8 @@ body {
     .body .home__button img {
       padding: 0;
       max-height: 430px;
+      width: 100%;
+      height: auto;
       -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       -moz-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
       animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
