@@ -2790,12 +2790,15 @@ body {
       -webkit-transition: opacity 500ms;
       -moz-transition: opacity 500ms;
       -o-transition: opacity 500ms;
-      transition: opacity 500ms; }
+      transition: opacity 500ms;
+      align-items: center; }
       .body .home__button span.image-title span {
         display: table-cell;
         text-align: center;
         vertical-align: middle;
-        font-family: 'Open Sans', sans-serif; }
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        letter-spacing: 2px; }
     .body .home__button a {
       align-items: center; }
   .body * {
