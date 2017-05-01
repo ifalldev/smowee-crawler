@@ -2749,7 +2749,7 @@ body {
   padding: 30px; }
   .body .body__section {
     flex-direction: column;
-    align-items: center; }
+    align-items: strech; }
     .body .body__section .section__row {
       padding: 0;
       padding-bottom: 10px;
@@ -2767,7 +2767,8 @@ body {
     animation: shadow-pop-br 0.8s cubic-bezier(0.47, 0, 0.745, 0.715) both;
     min-height: 50px;
     align-items: stretch;
-    flex-basis: auto; }
+    flex-basis: auto;
+    justify-content: center; }
     .body .home__button:hover span.image-title {
       opacity: 1; }
     .body .home__button img {
@@ -2803,6 +2804,10 @@ body {
         letter-spacing: 2px; }
     .body .home__button a {
       align-items: center; }
+      .body .home__button a.item-bong, .body .home__button a.item-lighter {
+        max-width: 200px; }
+      .body .home__button a.item-blunt {
+        max-width: 80px; }
   .body * {
     display: flex;
     flex: 1;

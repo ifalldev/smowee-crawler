@@ -2,7 +2,7 @@
   <div class="body__section">
     <div class="section__row">
       <div class="home__button">
-        <a href="">
+        <a class="item-lighter" href="">
           <img src="public/img/buttons/lighter.png" height="190">
           <span class="image-title">
             <span>Isqueiro</span>
@@ -11,7 +11,7 @@
       </div>
 
       <div class="home__button">
-        <a href="">
+        <a class="item-blunt" href="">
           <img src="public/img/buttons/blunt.png" alt="">
           <span class="image-title">
             <span>Blunts</span>
@@ -52,7 +52,7 @@
 
   <div class="body__section">
     <div class="home__button">
-      <a href="">
+      <a class="item-bong" href="">
         <img src="public/img/buttons/bong.png" alt="">
         <span class="image-title">
           <span>Bongs</span>
