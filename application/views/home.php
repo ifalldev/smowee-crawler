@@ -5,7 +5,7 @@
         <a href="">
           <img src="public/img/buttons/lighter.png" height="190">
           <span class="image-title">
-            <span>Zippos</span>
+            <span>Isqueiro</span>
           </span>
         </a>
       </div>
