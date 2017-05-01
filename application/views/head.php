@@ -16,6 +16,8 @@
 
     <link href="public/css/style.css" rel="stylesheet" type="text/css">
 
+    <script src="bower_components/vivus/dist/vivus.min.js" type="text/javascript" charset="utf-8" async defer></script>
+
     <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

@@ -12,13 +12,17 @@ class Pages extends CI_Controller
   }  
 
   public function index() {
-    $this->load->view('head');
-    $this->load->view('header');
-    $this->load->view('home');
-    $this->load->view('footer');
+    $this->renderPage('home');
   }
 
   public function search($item = 'seda') {
+    // $this->renderPage('search');
+  }
 
+  private function renderPage($contentPage) {
+    $this->load->view('head');
+    $this->load->view('header');
+    $this->load->view($contentPage);
+    $this->load->view('footer');
   }
 }
